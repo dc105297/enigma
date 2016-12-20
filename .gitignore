@@ -4,4 +4,4 @@
 *.iml
 
 ## Directory-based project format:
-.idea/
+/.idea
