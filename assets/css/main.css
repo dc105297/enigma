@@ -1,5 +1,5 @@
 /*Font Family*/
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
 @font-face {
     font-family: brandon;
     src: url(/assets/fonts/Brandon_reg.otf);
@@ -8,7 +8,14 @@
     font-family: brandon-bold;
     src: url(/assets/fonts/Brandon_bld.otf);
 }
-
+@font-face {
+    font-family: adventor;
+    src: url(/assets/fonts/texgyreadventor-bold.otf);
+}
+body {
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale;
+}
 .navbar{
 background:transparent;
 border:none;
@@ -163,4 +170,84 @@ padding-bottom: 50px;
 .careers-contact{
   text-align: center;
   padding-bottom:50px;
+}
+.create-row{
+  color:#ffffff;
+  background-color: #EC644B;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.create-row h1{
+  font-family: adventor, serif;
+  font-size:48px !important;
+}
+.sol-break{
+  width:42px;
+  margin-top:2em;
+  margin-bottom:2em;
+  border-top:3px solid #ffffff;
+}
+.create-row h2{
+  font-family: 'Merriweather', serif;
+  font-size:40px !important;
+  line-height: 58px;
+}
+.create-row p{
+  line-height:1.4em;
+  color:#ffffff;
+  font-size:28px !important;
+  font-family: 'Merriweather', serif;
+}
+.sol-listing-container{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.sol-listing{
+  flex:1;
+  -webkit-flex:1;
+  -webkit-box-flex:1;
+  -webkit-box-direction:normal;
+  flex-direction:row;
+  -webkit-box-orient:horizontal;
+}
+.sol-listing ul{
+  padding-left: 0px;
+}
+.sol-listing li{
+  border-top: 1px solid #ffffff;
+  list-style: none;
+  color:#ffffff;
+  font-family: 'Merriweather', serif;
+  font-size:19px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.contact-row{
+  border-top: 2px solid #ffffff;
+  background-color:#EC644B;
+  padding-top: 68px;
+  padding-bottom:68px;
+  text-align: center;
+}
+.contact-row h1,h4{
+  font-family: adventor, serif;
+}
+.contact-row h1{
+  color:#ffffff;
+}
+/*Custom Scrollbar*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  color:#fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #EC644B;
 }
