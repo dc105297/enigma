@@ -7,8 +7,8 @@
     border-radius: 4px;
 }
 .btn-primary:hover {
-    background-color: #454545;
-    border-color: #454545;
+    background-color: #4aadff; /* #454545 */
+    border-color: #4aadff; /* #454545 */
     color: #fff;
 }
 
@@ -73,7 +73,7 @@
 .portfolio_images_overlay h6{
     text-transform:uppercase;
     color:#fff;
-    font-size:2rem;
+    font-size:1.3rem; /* font-size:2rem; */
     line-height:2.575rem;
     font-weight: 500;
     margin-bottom: 1rem;
@@ -84,6 +84,11 @@
     font-size:2.5725rem;
     color:#fff;
     line-height:3rem;
+}
+.portfolio_images_overlay p.description{
+    font-size:1.5725rem;
+    color:#fff;
+    /* line-height:3rem; */
 }
 .portfolio_images_overlay .btn{
     margin-top: 25px;
@@ -96,12 +101,12 @@
 }
 @media (max-width:768px) {
     .portfolio_images_overlay{
-        padding: 90px 20px; /* 170px 20px */
+        padding: 20px 20px; /* 170px 20px */
     }
 }
 @media (max-width:580px) {
     .portfolio_images_overlay{
-        padding: 100px 20px;
+        padding: 20px 20px; /* padding: 100px 20px; */
     }
 }
 @media (max-width:480px) {
